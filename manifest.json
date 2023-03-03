@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "SaveGPT",
+    "version": "1.3",
+  
+    "description": "This extension saves ChatGPT text output with proper formatting",
+    "permissions": ["activeTab", "downloads", "notifications"],
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+   
+    
+    "browser_action": {
+        "default_icon": "clipboard.png"
+    }
+  }
+
+  
+  
